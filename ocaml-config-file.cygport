@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-config-file"
 VERSION=1.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml application config file library"
 DESCRIPTION="Config_file is an OCaml library used to manage the configuration
