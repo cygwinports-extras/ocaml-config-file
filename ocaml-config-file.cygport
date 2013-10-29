@@ -1,7 +1,9 @@
-ORIG_PN="config-file"
 inherit ocaml
 
-CATEGORY="OCaml"
+NAME="ocaml-config-file"
+VERSION=1.1
+RELEASE=1
+CATEGORY="Libs"
 SUMMARY="OCaml application config file library"
 DESCRIPTION="Config_file is an OCaml library used to manage the configuration
 file(s) of an application. You simply define your options and it performs the
@@ -9,7 +11,8 @@ loading and saving of the options. Each option is defined from an option class
 (for example an 'int' option) or from a combination of classes (for example
 to create 'list of int' options)."
 HOMEPAGE="http://config-file.forge.ocamlcore.org/"
-SRC_URI="https://forge.ocamlcore.org/frs/download.php/845/${ORIG_PN}-${PV}.tar.gz"
+SRC_URI="https://forge.ocamlcore.org/frs/download.php/845/config-file-${VERSION}.tar.gz"
+SRC_DIR="config-file-${VERSION}"
 
 src_compile() {
 	lndirs
